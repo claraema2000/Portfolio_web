@@ -1,3 +1,10 @@
+/* Header related styles */
+header{
+    background-color: #FFF8F3;
+    background-image: url(../Portfolio_web/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 /* common shared styles */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -6,8 +13,9 @@ body{
 nav{
     display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0px 150px;
 }
 .nav-title{
     color: #181818;
@@ -38,4 +46,60 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.button{
+    border-radius:5px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.banner{
+    padding:30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .pic{
+    width: 500px;
+}
+.banner-intro{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.details{
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* Main section styles */
+/* About section */
+.about{
+    margin: 130px;
+    padding: 130px;
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.sec-title{
+    color: #181818);
+    text-align: center;
+    font-weight: 700;
+}
+.sec-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
