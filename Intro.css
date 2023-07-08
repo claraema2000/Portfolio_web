@@ -83,9 +83,13 @@ nav a{
     margin-bottom: 30px;
 }
 /* Main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About section */
 .about{
-    margin: 130px;
+    margin: 130px 0;
     padding: 130px;
     width: 1140px;
     height: 550px;
@@ -95,6 +99,7 @@ nav a{
 .sec-title{
     color: #181818);
     text-align: center;
+
     font-weight: 700;
 }
 .sec-description{
@@ -102,4 +107,15 @@ nav a{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
+}
+.info-title
+.info-title
+.info-description{
 }
