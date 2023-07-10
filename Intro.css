@@ -182,9 +182,11 @@ footer{
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top:100px ;
+    gap: 100px; 
 }
 
 .footer-column{
+    width: 50%;
 
 }
 .footer-title{
@@ -197,4 +199,17 @@ footer{
     color: #474747;
     font-size: 16px;
     font-weight: 400;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{ 
+    display:block;
+    color: #757575;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+    padding: 18px 35 px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.social-linka a{
+    margin-right: 25px;
 }
